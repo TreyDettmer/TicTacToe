@@ -21,10 +21,10 @@ public class TTTState extends GameState {
     ///////////////////////////////////////////////////
 	
 	// the 3x3 array of char that represents the X's and O's on the board
-    private char[][] board;
+    public char[][] board;
     
     // an int that tells whose move it is
-    private int playerToMove;
+    public int playerToMove;
 
     /**
      * Constructor for objects of class TTTState
